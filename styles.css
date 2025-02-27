@@ -1,0 +1,47 @@
+.diff-preview {
+    font-family: monospace;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.diff-item {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-left: 3px solid transparent;
+}
+
+.diff-added {
+    background-color: #e6ffe6;
+    color: #006600;
+}
+
+.diff-removed {
+    background-color: #ffe6e6;
+    color: #cc0000;
+    text-decoration: line-through;
+}
+
+.diff-unchanged {
+    color: #666;
+}
+
+.diff-path {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 0.3em;
+}
+
+.diff-details {
+    font-weight: bold;
+}
+
+.diff-attributeChanged,
+.diff-attributeAdded,
+.diff-attributeRemoved {
+    border-left-color: #f0ad4e;
+}
+
+.diff-changed {
+    border-left-color: #5bc0de;
+} 
